@@ -1,0 +1,70 @@
+	/******* BASE STYLES ********/
+	*{
+		box-sizing:border-box;
+		margin:0;
+		padding: 0;
+		font-family:Helvetica;
+		font-size: 14px;
+	}
+
+	h1{
+		text-align: center;
+		margin:20px 0 25px 0;
+		font-size: 32px;
+	}
+	.row{
+        width:100%;
+	}
+	.section{
+		background-color: gray;
+		border:1px black solid;
+		margin:20px 60px 20px 40px;
+		padding:20px;
+		position:relative;
+		width:90%;
+		height:150px;
+	}
+
+	.section-title{
+		position:absolute;
+		top:0px;
+		right:0px;
+		padding:3px 20px 3px 20px;
+		border:1px solid black;
+		margin:0 0 10px 0;
+	}
+	#section-title1{
+		background-color: violet;
+
+	}
+    
+    #section-title2{
+		background-color: skyblue;
+	}
+    
+    #section-title3{
+		background-color:pink;
+	}
+	p{
+		margin-top:10px;
+	}
+     /*** FOR LARGE DEVICES ONLY***/
+	@media(min-width:992px) {
+		.section{
+		float:left;
+		border:1px solid green;
+	}
+	.section{
+     width:25%;
+	}
+}
+
+	@media(min-width:768px) and (max-width:991){
+		.section{
+		float:left;
+		border:1px solid green;
+	}
+	.section{
+     width:16.66%;
+	}
+}
